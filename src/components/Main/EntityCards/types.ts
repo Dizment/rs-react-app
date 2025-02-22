@@ -7,12 +7,6 @@ import type {
   Vehicle,
 } from '@/shared/types';
 
-export interface EntityCardProps {
-  entity: Record<string, any>;
-  fields: { label: string; key: string }[];
-  titleKey: string; // Ключ для заголовка (например, "name" или "title")
-}
-
 export interface CharacterCardProps {
   character: Character;
 }
